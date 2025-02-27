@@ -1,0 +1,29 @@
+# Environment variables
+.env
+
+# Node modules
+node_modules/
+
+# Application data
+uploads/*
+!uploads/.gitkeep
+processed/*
+!processed/.gitkeep
+posted/*
+!posted/.gitkeep
+customerContext.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea
+.vscode
+*.swp
+*.swo
